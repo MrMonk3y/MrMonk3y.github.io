@@ -1,6 +1,6 @@
 # Site settings
 title: Sascha Jecklin
-SEOTitle: SEOTitle | Sascha Jecklin
+SEOTitle: MrMonk3y | Sascha Jecklin
 header-img: img/home-bg.jpg
 email: sjecklin@gmail.com
 description: "PhD Student in Machine Learning and Augmented Reality"
@@ -13,10 +13,12 @@ future: true
 
 # SNS settings
 RSS: false
-github_username:    MrMonk3y
+weibo_username:     huxpro
+zhihu_username:     huxpro
+github_username:    huxpro
 twitter_username:   huxpro
 #facebook_username:  huxpro
-linkedin_username:  saschajecklin
+#linkedin_username:  saschajecklin
 
 
 
@@ -77,7 +79,7 @@ ga_domain: MrMonk3y.github.io           #huangxuan.me
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "It's e me, Mario"
-sidebar-avatar: /img/avatar-hux-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/head.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
