@@ -1,7 +1,7 @@
 # Site settings
 title: Sascha Jecklin
 SEOTitle: MrMonk3y | Sascha Jecklin
-header-img: img/test.jpg
+header-img: img/nyc.jpg
 email: sjecklin@gmail.com
 description: "PhD Student in Machine Learning and Augmented Reality"
 keyword: "Python, Machine Learning, ML, C, C++, Augmented Reality, HoloLens"
@@ -69,7 +69,7 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: 'UUA-xxxxxx-xx'            # Format: UA-xxxxxx-xx
+ga_track_id: 'G-XX9D193XBT'            # Format: UA-xxxxxx-xx
 ga_domain: MrMonk3y.github.io           #huangxuan.me
 
 
