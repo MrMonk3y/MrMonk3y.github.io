@@ -1,7 +1,7 @@
 {
-  "name": "Hux Blog",
-  "short_name": "Hux Blog",
-  "description": "About an engineer & designer who loves web.",
+  "name": "MrMonk3y's Website",
+  "short_name": "MrMonk3y",
+  "description": "Machine Learning, Augmented Reality and Engineering",
   "icons": [{
     "src": "icons/128.png",
     "sizes": "128x128",
