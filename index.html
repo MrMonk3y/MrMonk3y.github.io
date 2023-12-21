@@ -252,31 +252,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.Visual assessment based on intraoperative 2D X-rays remains the predominant aid for intraoperative decision-making, surgical guidance, and error prevention. However, correctly assessing the 3D shape of complex anatomies, such as the spine, based on planar fluoroscopic images remains a challenge even for experienced surgeons. This work proposes a novel deep learning-based method to intraoperatively estimate the 3D shape of patients' lumbar vertebrae directly from sparse, multi-view X-ray data. High-quality and accurate 3D reconstructions were achieved with a learned multi-view stereo machine approach capable of incorporating the X-ray calibration parameters in the neural network. This strategy allowed a priori knowledge of the spinal shape to be acquired while preserving patient specificity and achieving a higher accuracy compared to the state of the art. Our method was trained and evaluated on 17,420 fluoroscopy images that were digitally reconstructed from the public CTSpine1K dataset. As evaluated by unseen data, we achieved an 88% average F1 score and a 71% surface score. Furthermore, by utilizing the calibration parameters of the input X-rays, our method outperformed a counterpart method in the state of the art by 22% in terms of surface score. This increase in accuracy opens new possibilities for surgical navigation and intraoperative decision-making solely based on intraoperative data, especially in surgical applications where the acquisition of 3D image data is not part of the standard clinical workflow.
-          </p>
-          <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
-          </p>
-          <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
+            Visual assessment based on intraoperative 2D X-rays remains the predominant aid for intraoperative decision-making, surgical guidance, and error prevention. However, correctly assessing the 3D shape of complex anatomies, such as the spine, based on planar fluoroscopic images remains a challenge even for experienced surgeons. This work proposes a novel deep learning-based method to intraoperatively estimate the 3D shape of patients' lumbar vertebrae directly from sparse, multi-view X-ray data. High-quality and accurate 3D reconstructions were achieved with a learned multi-view stereo machine approach capable of incorporating the X-ray calibration parameters in the neural network. This strategy allowed a priori knowledge of the spinal shape to be acquired while preserving patient specificity and achieving a higher accuracy compared to the state of the art. Our method was trained and evaluated on 17,420 fluoroscopy images that were digitally reconstructed from the public CTSpine1K dataset. As evaluated by unseen data, we achieved an 88% average F1 score and a 71% surface score. Furthermore, by utilizing the calibration parameters of the input X-rays, our method outperformed a counterpart method in the state of the art by 22% in terms of surface score. This increase in accuracy opens new possibilities for surgical navigation and intraoperative decision-making solely based on intraoperative data, especially in surgical applications where the acquisition of 3D image data is not part of the standard clinical workflow.
           </p>
         </div>
       </div>
@@ -439,10 +415,14 @@
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     <pre><code>@article{park2021nerfies,
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
+  author    = {Jecklin, Sascha and Jancik, Carla and Farshad, Mazda and F{\"u}rnstahl, Philipp and Esfandiari, Hooman},
   title     = {X23D-Intraoperative 3D Lumbar Spine Shape Reconstruction Based on Sparse Multi-View X-ray Data},
-  journal   = {ICCV},
-  year      = {2021},
+  journal   = {Journal of Imaging},
+  volume    = {8},
+  number    = {10},
+  pages     = {271},
+  year      = {2022},
+  publisher = {MDPI}
 }</code></pre>
   </div>
 </section>
