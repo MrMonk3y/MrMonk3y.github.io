@@ -3,28 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="X23D-Intraoperative 3D Lumbar Spine Shape Reconstruction Based on Sparse Multi-View X-ray Data.">
-  <meta name="keywords" content="X23D, 3D Reconstruction, spine>
+        content="X23D - Intraoperative 3D Lumbar Spine Shape Reconstruction Based on Sparse Multi-View X-ray Data.">
+  <meta name="keywords" content="X23D, 3D Reconstruction, Spine, Domain Adaptation, Surgical Navigation">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>X23D-Intraoperative 3D Lumbar Spine Shape Reconstruction Based on Sparse Multi-View X-ray Data</title>
+  <title>X23D - Intraoperative 3D Lumbar Spine Shape Reconstruction</title>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <!--<script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>-->
-  <!--<script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-
-    gtag('config', 'G-PYVRSFMDRL');
-  </script>-->
-
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
 
+  <!-- CSS Files -->
   <link rel="stylesheet" href="./static/css/bulma.min.css">
   <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
@@ -34,14 +22,22 @@
   <link rel="stylesheet" href="./static/css/index.css">
   <link rel="icon" href="./static/images/favicon.svg">
 
+  <!-- jQuery and JS files -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- FontAwesome -->
   <script defer src="./static/js/fontawesome.all.min.js"></script>
+
+  <!-- Bulma Carousel and Slider -->
   <script src="./static/js/bulma-carousel.min.js"></script>
   <script src="./static/js/bulma-slider.min.js"></script>
+
+  <!-- Custom JS -->
   <script src="./static/js/index.js"></script>
 </head>
 <body>
 
+<!-- Navbar -->
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
@@ -53,9 +49,9 @@
   <div class="navbar-menu">
     <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
       <a class="navbar-item" href="https://x23d.ch">
-      <span class="icon">
+        <span class="icon">
           <i class="fas fa-home"></i>
-      </span>
+        </span>
       </a>
 
       <div class="navbar-item has-dropdown is-hoverable">
@@ -69,17 +65,17 @@
         </div>
       </div>
     </div>
-
   </div>
 </nav>
+<!-- /Navbar -->
 
-
+<!-- Hero Section -->
 <section class="hero">
   <div class="hero-body">
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">X23D-Intraoperative 3D Lumbar Spine Shape Reconstruction Based on Sparse Multi-View X-ray Data</h1>
+          <h1 class="title is-1 publication-title">X23D - Intraoperative 3D Lumbar Spine Shape Reconstruction Based on Sparse Multi-View X-ray Data</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://scholar.google.com/citations?user=2ig3ZygAAAAJ&hl=en&oi=ao">Sascha Jecklin</a><sup>1</sup>,</span>
@@ -97,44 +93,59 @@
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>Research in Orthopedic Computer Science, Balgrist University Hospital, University of Zurich, 8008 Zurich, Switzerland,</span>
+            <span class="author-block"><sup>1</sup>Research in Orthopedic Computer Science, Balgrist University Hospital, University of Zurich, 8008 Zurich, Switzerland</span>
             <span class="author-block"><sup>2</sup>Department of Orthopedics, Balgrist University Hospital, University of Zurich, 8008 Zurich, Switzerland</span>
           </div>
 
           <div class="column has-text-centered">
             <div class="publication-links">
-              <!-- PDF Link. -->
+              <!-- Original Paper PDF Link -->
               <span class="link-block">
                 <a href="https://www.mdpi.com/2313-433X/8/10/271/pdf?version=1666345184"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                      <i class="fas fa-file-pdf"></i>
+                    <i class="fas fa-file-pdf"></i>
                   </span>
                   <span>Paper</span>
                 </a>
               </span>
-              <!-- Video Link. -->
+              <!-- Video Link -->
               <span class="link-block">
                 <a href="https://www.youtube.com/watch?v=USjP8cKAEX8"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                      <i class="fab fa-youtube"></i>
+                    <i class="fab fa-youtube"></i>
                   </span>
                   <span>Video</span>
                 </a>
               </span>
             </div>
-
           </div>
         </div>
       </div>
     </div>
   </div>
-</section>
 
-<section class="section">
+  <!-- Hero Footer -->
+  <div class="hero-foot">
+    <nav class="tabs is-boxed is-fullwidth">
+      <div class="container is-max-desktop">
+        <ul>
+          <li class="is-active"><a href="#abstract">Abstract</a></li>
+          <li><a href="#follow-up-study">Follow-up Study</a></li>
+          <li><a href="#evaluation-study">Evaluation Study</a></li>
+          <li><a href="#bibtex">BibTeX</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</section>
+<!-- /Hero Section -->
+
+<!-- Main Content -->
+<section class="section" id="abstract">
   <div class="container is-max-desktop">
-    <!-- Abstract. -->
+    <!-- Abstract -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
@@ -145,49 +156,106 @@
         </div>
       </div>
     </div>
-    <!--/ Abstract. -->
+    <!-- /Abstract -->
 
-    <!-- Paper video. -->
+    <!-- Paper Video -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Video</h2>
         <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/USjP8cKAEX8?si=tknMJNocXdzpBj0W=0&amp;showinfo=0"
+          <iframe src="https://www.youtube.com/embed/USjP8cKAEX8?showinfo=0"
                   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
     </div>
-    <!--/ Paper video. -->
+    <!-- /Paper Video -->
   </div>
 </section>
 
-
-<section class="section">
+<!-- Follow-up Study Section -->
+<section class="section" id="follow-up-study">
   <div class="container is-max-desktop">
-
     <div class="columns is-centered">
-
-    <!-- Concurrent Work. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Follow-up work on real data</h2>
-
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Follow-up Study: Domain Adaptation for Real Data</h2>
         <div class="content has-text-justified">
           <p>
-            We have now published a follow-up paper that details the creation of a paired dataset consisting of synthetic and real X-ray images. This dataset has been instrumental in bridging the domain gap, significantly enhancing X23D’s performance on real X-rays. You can read the full paper <a href="https://www.sciencedirect.com/science/article/pii/S1361841524002470">here</a>.
+            In our follow-up study, <em>“Domain Adaptation Strategies for 3D Reconstruction of the Lumbar Spine Using Real Fluoroscopy Data”</em>, we addressed the domain gap between synthetic training data and real intraoperative images. This study introduced a paired dataset combining synthetic and real fluoroscopic images, enabling our deep learning model to achieve robust 3D reconstructions directly from real X-rays. Utilizing transfer learning and style adaptation, the refined X23D model now provides real-time, high-accuracy spinal reconstructions with a computational time of just 81.1 ms. This advancement bridges critical gaps in surgical navigation, paving the way for enhanced surgical planning and robotics. Read more in the <a href="https://www.sciencedirect.com/science/article/pii/S1361841524002470">Medical Image Analysis</a> journal.
           </p>
+        </div>
+
+        <!-- Images for Follow-up Study -->
+        <div class="columns is-multiline">
+          <!-- Image 1 -->
+          <div class="column is-one-third">
+            <figure class="image is-4by3">
+              <img src="static/images/drr_generation_ui.jpg" alt="DRR Generation UI">
+            </figure>
+            <p class="has-text-centered">Figure 1: DRR Generation UI</p>
+          </div>
+          <!-- Image 2 -->
+          <div class="column is-one-third">
+            <figure class="image is-4by3">
+              <img src="static/images/data_collection_pipeline.jpg" alt="Data Collection Pipeline">
+            </figure>
+            <p class="has-text-centered">Figure 2: Data Collection Pipeline</p>
+          </div>
+          <!-- Image 3 -->
+          <div class="column is-one-third">
+            <figure class="image is-4by3">
+              <img src="static/images/results_real_synthetic.jpg" alt="Results on Real and Synthetic Data">
+            </figure>
+            <p class="has-text-centered">Figure 3: Results on Real and Synthetic Data</p>
+          </div>
+        </div>
+        <!-- /Images -->
+
+        <!-- Download Button -->
+        <div class="has-text-centered">
+          <a href="link_to_follow_up_paper.pdf" class="button is-normal is-rounded is-dark">
+            <span class="icon">
+              <i class="fas fa-file-pdf"></i>
+            </span>
+            <span>Download Follow-up Paper</span>
+          </a>
         </div>
       </div>
     </div>
-    <!--/ Concurrent Work. -->
-
   </div>
 </section>
+<!-- /Follow-up Study Section -->
 
+<!-- Evaluation Study Section -->
+<section class="section" id="evaluation-study">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Evaluation Study: Ex-Vivo Validation of X23D</h2>
+        <div class="content has-text-justified">
+          <p>
+            Our evaluation study, <em>“Spinal Navigation with AI-Driven 3D Reconstruction of Fluoroscopy Images: An Ex-Vivo Feasibility Study”</em>, validated X23D’s surgical application in realistic settings. In this study, five spine surgeons placed pedicle screws on human torsi using our AI-based system and compared it against traditional fluoroscopy. Results showed comparable breach rates, reduced radiation exposure, and promising user feedback, affirming X23D’s potential as a reliable, radiation-efficient alternative to conventional navigation systems. Learn more about our findings in <a href="https://bmcmusculoskeletdisord.biomedcentral.com/articles/10.1186/s12891-023-06644-8">BMC Musculoskeletal Disorders</a>.
+          </p>
+        </div>
 
-<section class="section" id="BibTeX">
+        <!-- Download Button -->
+        <div class="has-text-centered">
+          <a href="link_to_evaluation_study.pdf" class="button is-normal is-rounded is-dark">
+            <span class="icon">
+              <i class="fas fa-file-pdf"></i>
+            </span>
+            <span>Download Evaluation Study</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /Evaluation Study Section -->
+
+<!-- BibTeX Section -->
+<section class="section" id="bibtex">
   <div class="container is-max-desktop content">
-    <h2 class="title">BibTeX</h2>
+    <h2 class="title is-3">BibTeX</h2>
     <pre><code>@article{jecklin2022x23d,
   author    = {Jecklin, Sascha and Jancik, Carla and Farshad, Mazda and F{\"u}rnstahl, Philipp and Esfandiari, Hooman},
   title     = {X23D-Intraoperative 3D Lumbar Spine Shape Reconstruction Based on Sparse Multi-View X-ray Data},
@@ -197,20 +265,48 @@
   pages     = {271},
   year      = {2022},
   publisher = {MDPI}
+}
+@article{jecklin_domain_2024,
+	title = {Domain adaptation strategies for 3D reconstruction of the lumbar spine using real fluoroscopy data},
+	volume = {98},
+	issn = {1361-8415},
+	url = {https://www.sciencedirect.com/science/article/pii/S1361841524002470},
+	doi = {10.1016/j.media.2024.103322},
+	pages = {103322},
+	journaltitle = {Medical Image Analysis},
+	shortjournal = {Medical Image Analysis},
+	author = {Jecklin, Sascha and Shen, Youyang and Gout, Amandine and Suter, Daniel and Calvet, Lilian and Zingg, Lukas and Straub, Jennifer and Cavalcanti, Nicola Alessandro and Farshad, Mazda and Fürnstahl, Philipp and Esfandiari, Hooman},
+	date = {2024-12-01},
+	keywords = {Fluoroscopy, Intraoperative, X-ray, 3D reconstruction, Deep Learning},
+}
+@article{luchmann_spinal_2024,
+	title = {Spinal navigation with {AI}-driven 3D-reconstruction of fluoroscopy images: an ex-vivo feasibility study},
+	volume = {25},
+	issn = {1471-2474},
+	url = {https://doi.org/10.1186/s12891-024-08052-2},
+	doi = {10.1186/s12891-024-08052-2},
+	pages = {925},
+	number = {1},
+	journaltitle = {{BMC} Musculoskeletal Disorders},
+	shortjournal = {{BMC} Musculoskeletal Disorders},
+	author = {Luchmann, Dietmar and Jecklin, Sascha and Cavalcanti, Nicola A. and Laux, Christoph J. and Massalimova, Aidana and Esfandiari, Hooman and Farshad, Mazda and Fürnstahl, Philipp},
+	date = {2024-11-19},
+}
 }</code></pre>
   </div>
 </section>
+<!-- /BibTeX Section -->
 
-
+<!-- Footer -->
 <footer class="footer">
   <div class="container">
     <div class="content has-text-centered">
-      <a class="icon-link"
-         href="./static/videos/nerfies_paper.pdf">
-        <i class="fas fa-file-pdf"></i>
-      </a>
-      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+      <!-- Social Links -->
+      <a class="icon-link" href="https://github.com/your_github_username">
         <i class="fab fa-github"></i>
+      </a>
+      <a class="icon-link" href="mailto:your_email@example.com">
+        <i class="fas fa-envelope"></i>
       </a>
     </div>
     <div class="columns is-centered">
@@ -222,17 +318,15 @@
             Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
           <p>
-            This means you are free to borrow the <a
-              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
-            we just ask that you link back to this page in the footer.
-            Please remember to remove the analytics code included in the header of the website which
-            you do not want on your website.
+            You are free to borrow the <a
+              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website.
           </p>
         </div>
       </div>
     </div>
   </div>
 </footer>
+<!-- /Footer -->
 
 </body>
 </html>
