@@ -126,19 +126,19 @@
     </div>
   </div>
 
-  <!-- Hero Footer -->
-  <div class="hero-foot">
-    <nav class="tabs is-boxed is-fullwidth">
-      <div class="container is-max-desktop">
-        <ul>
-          <li class="is-active"><a href="#abstract">Abstract</a></li>
-          <li><a href="#follow-up-study">Follow-up Study</a></li>
-          <li><a href="#evaluation-study">Evaluation Study</a></li>
-          <li><a href="#bibtex">BibTeX</a></li>
-        </ul>
-      </div>
-    </nav>
-  </div>
+<!-- Hero Footer -->
+<div class="hero-foot">
+  <nav class="tabs is-boxed is-fullwidth has-background-light">
+    <div class="container is-max-desktop">
+      <ul>
+        <li class="is-active"><a href="#abstract">Abstract</a></li>
+        <li><a href="#follow-up-study">Follow-up Study</a></li>
+        <li><a href="#evaluation-study">Evaluation Study</a></li>
+        <li><a href="#bibtex">BibTeX</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
 </section>
 <!-- /Hero Section -->
 
@@ -189,21 +189,21 @@
           <!-- Image 1 -->
           <div class="column is-one-third">
             <figure class="image is-4by3">
-              <img src="static/images/drr_generation_ui.jpg" alt="DRR Generation UI">
+              <img src="./static/images/gui.png" alt="DRR Generation UI">
             </figure>
             <p class="has-text-centered">Figure 1: DRR Generation UI</p>
           </div>
           <!-- Image 2 -->
           <div class="column is-one-third">
             <figure class="image is-4by3">
-              <img src="static/images/data_collection_pipeline.jpg" alt="Data Collection Pipeline">
+              <img src="./static/images/real_data.png" alt="Data Collection Pipeline">
             </figure>
             <p class="has-text-centered">Figure 2: Data Collection Pipeline</p>
           </div>
           <!-- Image 3 -->
           <div class="column is-one-third">
             <figure class="image is-4by3">
-              <img src="static/images/results_real_synthetic.jpg" alt="Results on Real and Synthetic Data">
+              <img src="./static/images/4_comparison_v5.png" alt="Results on Real and Synthetic Data">
             </figure>
             <p class="has-text-centered">Figure 3: Results on Real and Synthetic Data</p>
           </div>
@@ -212,7 +212,7 @@
 
         <!-- Download Button -->
         <div class="has-text-centered">
-          <a href="link_to_follow_up_paper.pdf" class="button is-normal is-rounded is-dark">
+          <a href="https://www.sciencedirect.com/science/article/pii/S1361841524002470/pdfft?md5=c8d17bbbaa45287c29e84ed636f09188&pid=1-s2.0-S1361841524002470-main.pdf" class="button is-normal is-rounded is-dark">
             <span class="icon">
               <i class="fas fa-file-pdf"></i>
             </span>
@@ -233,13 +233,13 @@
         <h2 class="title is-3">Evaluation Study: Ex-Vivo Validation of X23D</h2>
         <div class="content has-text-justified">
           <p>
-            Our evaluation study, <em>“Spinal Navigation with AI-Driven 3D Reconstruction of Fluoroscopy Images: An Ex-Vivo Feasibility Study”</em>, validated X23D’s surgical application in realistic settings. In this study, five spine surgeons placed pedicle screws on human torsi using our AI-based system and compared it against traditional fluoroscopy. Results showed comparable breach rates, reduced radiation exposure, and promising user feedback, affirming X23D’s potential as a reliable, radiation-efficient alternative to conventional navigation systems. Learn more about our findings in <a href="https://bmcmusculoskeletdisord.biomedcentral.com/articles/10.1186/s12891-023-06644-8">BMC Musculoskeletal Disorders</a>.
+            Our evaluation study, <em>“Spinal Navigation with AI-Driven 3D Reconstruction of Fluoroscopy Images: An Ex-Vivo Feasibility Study”</em>, validated X23D’s surgical application in realistic settings. In this study, five spine surgeons placed pedicle screws on human torsi using our AI-based system and compared it against traditional fluoroscopy. Results showed comparable breach rates, reduced radiation exposure, and promising user feedback, affirming X23D’s potential as a reliable, radiation-efficient alternative to conventional navigation systems. Learn more about our findings in <a href="https://bmcmusculoskeletdisord.biomedcentral.com/articles/10.1186/s12891-024-08052-2">BMC Musculoskeletal Disorders</a>.
           </p>
         </div>
 
         <!-- Download Button -->
         <div class="has-text-centered">
-          <a href="link_to_evaluation_study.pdf" class="button is-normal is-rounded is-dark">
+          <a href="https://bmcmusculoskeletdisord.biomedcentral.com/counter/pdf/10.1186/s12891-024-08052-2.pdf" class="button is-normal is-rounded is-dark">
             <span class="icon">
               <i class="fas fa-file-pdf"></i>
             </span>
@@ -256,7 +256,10 @@
 <section class="section" id="bibtex">
   <div class="container is-max-desktop content">
     <h2 class="title is-3">BibTeX</h2>
-    <pre><code>@article{jecklin2022x23d,
+
+    <!-- First Citation -->
+    <pre><code>
+@article{jecklin2022x23d,
   author    = {Jecklin, Sascha and Jancik, Carla and Farshad, Mazda and F{\"u}rnstahl, Philipp and Esfandiari, Hooman},
   title     = {X23D-Intraoperative 3D Lumbar Spine Shape Reconstruction Based on Sparse Multi-View X-ray Data},
   journal   = {Journal of Imaging},
@@ -266,33 +269,41 @@
   year      = {2022},
   publisher = {MDPI}
 }
+    </code></pre>
+
+    <!-- Second Citation -->
+    <pre><code>
 @article{jecklin_domain_2024,
-	title = {Domain adaptation strategies for 3D reconstruction of the lumbar spine using real fluoroscopy data},
-	volume = {98},
-	issn = {1361-8415},
-	url = {https://www.sciencedirect.com/science/article/pii/S1361841524002470},
-	doi = {10.1016/j.media.2024.103322},
-	pages = {103322},
-	journaltitle = {Medical Image Analysis},
-	shortjournal = {Medical Image Analysis},
-	author = {Jecklin, Sascha and Shen, Youyang and Gout, Amandine and Suter, Daniel and Calvet, Lilian and Zingg, Lukas and Straub, Jennifer and Cavalcanti, Nicola Alessandro and Farshad, Mazda and Fürnstahl, Philipp and Esfandiari, Hooman},
-	date = {2024-12-01},
-	keywords = {Fluoroscopy, Intraoperative, X-ray, 3D reconstruction, Deep Learning},
+  title        = {Domain adaptation strategies for 3D reconstruction of the lumbar spine using real fluoroscopy data},
+  volume       = {98},
+  issn         = {1361-8415},
+  url          = {https://www.sciencedirect.com/science/article/pii/S1361841524002470},
+  doi          = {10.1016/j.media.2024.103322},
+  pages        = {103322},
+  journaltitle = {Medical Image Analysis},
+  shortjournal = {Medical Image Analysis},
+  author       = {Jecklin, Sascha and Shen, Youyang and Gout, Amandine and Suter, Daniel and Calvet, Lilian and Zingg, Lukas and Straub, Jennifer and Cavalcanti, Nicola Alessandro and Farshad, Mazda and Fürnstahl, Philipp and Esfandiari, Hooman},
+  date         = {2024-12-01},
+  keywords     = {Fluoroscopy, Intraoperative, X-ray, 3D reconstruction, Deep Learning},
 }
+    </code></pre>
+
+    <!-- Third Citation -->
+    <pre><code>
 @article{luchmann_spinal_2024,
-	title = {Spinal navigation with {AI}-driven 3D-reconstruction of fluoroscopy images: an ex-vivo feasibility study},
-	volume = {25},
-	issn = {1471-2474},
-	url = {https://doi.org/10.1186/s12891-024-08052-2},
-	doi = {10.1186/s12891-024-08052-2},
-	pages = {925},
-	number = {1},
-	journaltitle = {{BMC} Musculoskeletal Disorders},
-	shortjournal = {{BMC} Musculoskeletal Disorders},
-	author = {Luchmann, Dietmar and Jecklin, Sascha and Cavalcanti, Nicola A. and Laux, Christoph J. and Massalimova, Aidana and Esfandiari, Hooman and Farshad, Mazda and Fürnstahl, Philipp},
-	date = {2024-11-19},
+  title        = {Spinal navigation with {AI}-driven 3D-reconstruction of fluoroscopy images: an ex-vivo feasibility study},
+  volume       = {25},
+  issn         = {1471-2474},
+  url          = {https://doi.org/10.1186/s12891-024-08052-2},
+  doi          = {10.1186/s12891-024-08052-2},
+  pages        = {925},
+  number       = {1},
+  journaltitle = {{BMC} Musculoskeletal Disorders},
+  shortjournal = {{BMC} Musculoskeletal Disorders},
+  author       = {Luchmann, Dietmar and Jecklin, Sascha and Cavalcanti, Nicola A. and Laux, Christoph J. and Massalimova, Aidana and Esfandiari, Hooman and Farshad, Mazda and Fürnstahl, Philipp},
+  date         = {2024-11-19},
 }
-}</code></pre>
+    </code></pre>
   </div>
 </section>
 <!-- /BibTeX Section -->
